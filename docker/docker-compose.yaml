@@ -71,8 +71,8 @@ services:
     ports:
       - 8051:8051
     volumes:
-      - webhook-data:/jira-webhook-test
-      - ./:webhook_test/logs
+      - webhook_test-data:/jira-webhook-test
+      - ./logs/:/webhook_test/storage/logs
 
 
 volumes:
@@ -80,6 +80,8 @@ volumes:
   db-data:
   swag_config:
   webhook-data:
+  webhook_test-data:
+
 
 secrets:
   postgresql_password:

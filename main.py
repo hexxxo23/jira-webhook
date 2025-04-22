@@ -239,6 +239,10 @@ async def create_expense(payload: JiraRequest, request: Request, token: str = De
                 case _:
                     domain_company = [('name', '=', 'PT Bangunindo Teknusa Jaya')]
 
+            _logger.info("Domain company: %s", domain_company)
+            _logger.info("Domain user: %s", domain_user)
+            _logger.info("Domain category: %s", domain_category)
+            
             company = find_data('res.company', domain_company, ["id", "currency_id"])
             if not company:
                 _logger.error("Company not found: %s", domain_company)
