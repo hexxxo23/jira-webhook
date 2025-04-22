@@ -1,0 +1,86 @@
+services:
+  web:
+    image: odoo:17.0
+    container_name: bangunindo_web
+    depends_on:
+      - db
+    ports:
+      - 8069:8069
+    expose:
+      - 8069
+    volumes:
+      - web-data:/var/lib/odoo
+      - ./config:/etc/odoo
+      - ./addons:/mnt/extra-addons
+    environment:
+      - PASSWORD_FILE=/run/secrets/postgresql_password
+    secrets:
+      - postgresql_password
+  db:
+    image: postgres:15
+    container_name: bangunindo_db
+    ports:
+      - 5432:5432
+    expose:
+      - 5432
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD_FILE=/run/secrets/postgresql_password
+      - POSTGRES_USER=odoo
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - db-data:/var/lib/postgresql/data/pgdata
+    secrets:
+      - postgresql_password
+  swag:
+    image: lscr.io/linuxserver/swag:latest
+    container_name: bangunindo_swag
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Jakarta
+      - URL=staging.odoo.bangunindo.io
+      - SUBDOMAINS=
+      - VALIDATION=http
+      - CERTPROVIDER=letsencrypt
+      - EXTRA_DOMAINS=webhook.staging.odoo.bangunindo.io
+    volumes:
+      - ./nginx/default.conf:/config/nginx/site-confs/default.conf
+      - ./nginx/btj.domain.conf:/config/nginx/proxy-confs/btj.subdomain.conf
+      - ./nginx/webhook.domain.conf:/config/nginx/proxy-confs/webhook.subdomain.conf
+      - ./config:/config
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - web
+  webhook:
+    container_name: webhook-jira
+    build: ./jira-webhook
+    ports:
+      - 8050:8050
+    volumes:
+      - webhook-data:/jira-webhook
+      - ./logs:/jira-webhook/logs
+  webhook_test:
+    container_name: webhook-test
+    build: ./jira-webhook-test
+    ports:
+      - 8051:8051
+    volumes:
+      - webhook-data:/jira-webhook-test
+      - ./:webhook_test/logs
+
+
+volumes:
+  web-data:
+  db-data:
+  swag_config:
+  webhook-data:
+
+secrets:
+  postgresql_password:
+    file: odoo_pg_pass
