@@ -110,3 +110,2262 @@ Traceback (most recent call last):
     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2025-04-25 09:59:11,997 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 09:59:11,999 - api.expenses - INFO - Raw payload:
+{
+  "self": "https://bangunindo.atlassian.net/rest/api/2/issue/63880",
+  "id": 63880,
+  "key": "ROP-5269",
+  "changelog": {
+    "startAt": 0,
+    "maxResults": 0,
+    "total": 0,
+    "histories": null
+  },
+  "fields": {
+    "statuscategorychangedate": "2025-04-11T16:08:34.428+0700",
+    "customfield_10070": null,
+    "customfield_10071": null,
+    "customfield_10073": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/customFieldOption/10059",
+      "value": "BCA",
+      "id": "10059"
+    },
+    "customfield_10076": 0.0,
+    "fixVersions": [],
+    "statusCategory": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    },
+    "resolution": null,
+    "lastViewed": null,
+    "customfield_10061": null,
+    "customfield_10062": null,
+    "customfield_10063": null,
+    "customfield_10064": null,
+    "customfield_10066": null,
+    "priority": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/priority/4",
+      "id": 4,
+      "name": "Low",
+      "iconUrl": "https://bangunindo.atlassian.net/images/icons/priorities/low.svg",
+      "namedValue": "Low"
+    },
+    "customfield_10343": null,
+    "customfield_10344": null,
+    "labels": [],
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5dfca9c922edca0cb8050843",
+      "name": null,
+      "key": null,
+      "accountId": "5dfca9c922edca0cb8050843",
+      "emailAddress": null,
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png"
+      },
+      "displayName": "Hari Dzulhadi Nasution",
+      "active": true,
+      "timeZone": "Asia/Jakarta",
+      "groups": null,
+      "locale": null,
+      "accountType": "atlassian"
+    },
+    "status": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/status/10010",
+      "description": "",
+      "iconUrl": "https://bangunindo.atlassian.net/images/icons/status_generic.gif",
+      "name": "Done",
+      "untranslatedName": null,
+      "id": 10010,
+      "statusCategory": {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      },
+      "untranslatedNameValue": null
+    },
+    "components": [],
+    "customfield_10050": null,
+    "customfield_10051": null,
+    "customfield_10176": null,
+    "customfield_10211": null,
+    "customfield_10049": null,
+    "aggregatetimeestimate": null,
+    "creator": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+      "name": null,
+      "key": null,
+      "accountId": "610750868ad5b60070d2ddc9",
+      "emailAddress": null,
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+      },
+      "displayName": "Ozi Priawadi",
+      "active": true,
+      "timeZone": "Asia/Jakarta",
+      "groups": null,
+      "locale": null,
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "customfield_10040": 0.0,
+    "customfield_10041": 240000.0,
+    "customfield_10162": null,
+    "customfield_10163": null,
+    "reporter": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+      "name": null,
+      "key": null,
+      "accountId": "610750868ad5b60070d2ddc9",
+      "emailAddress": null,
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+      },
+      "displayName": "Ozi Priawadi",
+      "active": true,
+      "timeZone": "Asia/Jakarta",
+      "groups": null,
+      "locale": null,
+      "accountType": "atlassian"
+    },
+    "customfield_10164": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10165": null,
+    "customfield_10044": "2025-04-11T16:08:00.000+0700",
+    "customfield_10045": null,
+    "customfield_10166": [],
+    "customfield_10046": null,
+    "customfield_10047": [],
+    "customfield_10048": null,
+    "customfield_10038": 509000.0,
+    "customfield_10039": 0.0,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/issue/ROP-5215/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "maxResults": 20,
+      "total": 0,
+      "startAt": 0,
+      "worklogs": [],
+      "last": false
+    },
+    "issuetype": {
+      "namedValue": "Reimbursement",
+      "self": "https://bangunindo.atlassian.net/rest/api/2/issuetype/10024",
+      "id": 10024,
+      "description": "",
+      "iconUrl": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+      "name": "Reimbursement",
+      "untranslatedName": null,
+      "subtask": false,
+      "fields": {},
+      "statuses": [],
+      "hierarchyLevel": 0
+    },
+    "timespent": null,
+    "customfield_10030": 1555050.0,
+    "project": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/project/10005",
+      "id": 10005,
+      "key": "ROP",
+      "name": "Request of Payment",
+      "description": null,
+      "avatarUrls": {
+        "48x48": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424",
+        "24x24": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424?size=small",
+        "16x16": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424?size=xsmall",
+        "32x32": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424?size=medium"
+      },
+      "issuetypes": null,
+      "projectCategory": {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/projectCategory/10002",
+        "id": 10002,
+        "name": "Finance",
+        "description": ""
+      },
+      "email": null,
+      "lead": null,
+      "components": null,
+      "versions": null,
+      "projectTypeKey": "business",
+      "simplified": false
+    },
+    "customfield_10031": null,
+    "aggregatetimespent": null,
+    "customfield_10035": "Satu Juta Lima Ratus Lima Puluh Lima Ribu Lima Puluh Rupiah",
+    "customfield_10157": null,
+    "customfield_10036": 806050.0,
+    "customfield_10158": null,
+    "customfield_10037": 0.0,
+    "customfield_10148": null,
+    "customfield_10027": null,
+    "customfield_10028": null,
+    "customfield_10029": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "watches": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/issue/ROP-5215/watchers",
+      "watchCount": 2,
+      "isWatching": false
+    },
+    "created": 1743402112031,
+    "customfield_10020": null,
+    "customfield_10021": null,
+    "customfield_10022": "2025-04-09T12:34:38.029+0700",
+    "customfield_10144": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/customFieldOption/10572",
+      "value": "ITMS_NMS-AIIP-Q1_BAKTI_2025_PRO",
+      "id": "10572"
+    },
+    "customfield_10023": null,
+    "customfield_10145": null,
+    "customfield_10146": null,
+    "customfield_10147": null,
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "EPIC_LINK_SHOULD_BE_USED",
+        "message": "To set an epic as the parent, use the epic link instead"
+      }
+    },
+    "customfield_10019": "0|r048tk:",
+    "updated": 1744362518567,
+    "timeoriginalestimate": null,
+    "description": "Reimbursement Ozi Priawadi 1003 - 1803",
+    "customfield_10010": null,
+    "customfield_10014": null,
+    "timetracking": {
+      "originalEstimate": null,
+      "remainingEstimate": null,
+      "timeSpent": null,
+      "originalEstimateSeconds": 0,
+      "remainingEstimateSeconds": 0,
+      "timeSpentSeconds": 0
+    },
+    "customfield_10015": null,
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "security": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/securitylevel/10003",
+      "id": 10003,
+      "name": "Viewable by Reporters & Assignee",
+      "description": "",
+      "namedValue": "Viewable by Reporters & Assignee"
+    },
+    "customfield_10007": null,
+    "customfield_10008": null,
+    "customfield_10129": null,
+    "customfield_10009": null,
+    "attachment": [
+      {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/attachment/56766",
+        "id": 56766,
+        "filename": "Reimburse Maret.pdf",
+        "author": {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+          "name": null,
+          "key": null,
+          "accountId": "610750868ad5b60070d2ddc9",
+          "emailAddress": null,
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+          },
+          "displayName": "Ozi Priawadi",
+          "active": true,
+          "timeZone": "Asia/Jakarta",
+          "groups": null,
+          "locale": null,
+          "accountType": "atlassian"
+        },
+        "created": 1743402032517,
+        "size": 4255822,
+        "mimeType": "application/pdf",
+        "content": "https://bangunindo.atlassian.net/rest/api/2/attachment/content/56766"
+      },
+      {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/attachment/56765",
+        "id": 56765,
+        "filename": "Reimburse Maret NMT AI IPHUB.png",
+        "author": {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+          "name": null,
+          "key": null,
+          "accountId": "610750868ad5b60070d2ddc9",
+          "emailAddress": null,
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+          },
+          "displayName": "Ozi Priawadi",
+          "active": true,
+          "timeZone": "Asia/Jakarta",
+          "groups": null,
+          "locale": null,
+          "accountType": "atlassian"
+        },
+        "created": 1743402013682,
+        "size": 483668,
+        "mimeType": "image/png",
+        "content": "https://bangunindo.atlassian.net/rest/api/2/attachment/content/56765"
+      },
+      {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/attachment/57188",
+        "id": 57188,
+        "filename": "ROP 5215.png",
+        "author": {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5dfca9c99a14250cb69f31cc",
+          "name": null,
+          "key": null,
+          "accountId": "5dfca9c99a14250cb69f31cc",
+          "emailAddress": null,
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png"
+          },
+          "displayName": "Rizki Jofiansyah Ismar",
+          "active": true,
+          "timeZone": "Asia/Jakarta",
+          "groups": null,
+          "locale": null,
+          "accountType": "atlassian"
+        },
+        "created": 1744362509464,
+        "size": 123630,
+        "mimeType": "image/png",
+        "content": "https://bangunindo.atlassian.net/rest/api/2/attachment/content/57188"
+      }
+    ],
+    "summary": "Reimbursement Ozi Priawadi 1003 - 1803",
+    "customfield_10000": "{}",
+    "customfield_10001": null,
+    "customfield_10123": "2025-03-10",
+    "customfield_10002": [],
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "customfield_10117": null,
+    "environment": null,
+    "customfield_10118": null,
+    "customfield_10119": null,
+    "comment": {
+      "maxResults": 2,
+      "total": 2,
+      "startAt": 0,
+      "comments": [
+        {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/issue/63880/comment/47285",
+          "id": 47285,
+          "author": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5e29849ec9ecb50e76b98e89",
+            "name": null,
+            "key": null,
+            "accountId": "5e29849ec9ecb50e76b98e89",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png"
+            },
+            "displayName": "Aditya Sasmita",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:610750868ad5b60070d2ddc9] ini AI LC apa AIIP, Ji? udah ada PID barunya NMS AIIP Q1",
+          "renderedBody": null,
+          "updateAuthor": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5e29849ec9ecb50e76b98e89",
+            "name": null,
+            "key": null,
+            "accountId": "5e29849ec9ecb50e76b98e89",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png"
+            },
+            "displayName": "Aditya Sasmita",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "created": 1744176878029,
+          "updated": 1744176902293,
+          "visibility": null
+        },
+        {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/issue/63880/comment/47287",
+          "id": 47287,
+          "author": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+            "name": null,
+            "key": null,
+            "accountId": "610750868ad5b60070d2ddc9",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+            },
+            "displayName": "Ozi Priawadi",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:5e29849ec9ecb50e76b98e89] AI IPHUB Adit. Waktu bikin masih belum ada, mintol diganti klo gitu yak \ud83d\ude4f",
+          "renderedBody": null,
+          "updateAuthor": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+            "name": null,
+            "key": null,
+            "accountId": "610750868ad5b60070d2ddc9",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+            },
+            "displayName": "Ozi Priawadi",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "created": 1744177308973,
+          "updated": 1744177308973,
+          "visibility": null
+        }
+      ],
+      "last": false
+    }
+  },
+  "renderedFields": null
+}
+2025-04-25 09:59:12,005 - api.expenses - INFO - Transformed:
+{
+  "key": "ROP-5269",
+  "summary": "Reimbursement Ozi Priawadi 1003 - 1803",
+  "project_id": "ITMS_NMS-AIIP-Q1_BAKTI_2025_PRO",
+  "issue_type": "Reimbursement",
+  "status": {
+    "name": "Done",
+    "status_category": {
+      "name": "Done"
+    }
+  },
+  "reporter": {
+    "display_name": "Ozi Priawadi",
+    "email": null,
+    "account_id": "610750868ad5b60070d2ddc9",
+    "active": true
+  },
+  "total_payment": 1555050,
+  "actual_expense": null,
+  "done_at": "2025-04-11T16:08:00+07:00"
+}
+2025-04-25 09:59:12,005 - services.odoo_client - INFO - Odoo config: bangunindo_web/Bangunindo_test:8069
+2025-04-25 09:59:12,009 - services.odoo_client - ERROR - Error find_data hr.expense: [Errno 8] nodename nor servname provided, or not known
+2025-04-25 09:59:12,009 - services.odoo_client - INFO - Odoo config: bangunindo_web/Bangunindo_test:8069
+2025-04-25 09:59:12,010 - services.odoo_client - ERROR - Error create_data hr.expense: [Errno 8] nodename nor servname provided, or not known
+2025-04-25 09:59:12,010 - api.expenses - ERROR - Error creating expense: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Users/bahtera/Work/HELP_DESK/Jira/jira-webhook/api/expenses.py", line 62, in create_expense
+    rec_id = create_data("hr.expense", values=data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bahtera/Work/HELP_DESK/Jira/jira-webhook/services/odoo_client.py", line 30, in create_data
+    client = get_client()
+             ^^^^^^^^^^^^
+  File "/Users/bahtera/Work/HELP_DESK/Jira/jira-webhook/services/odoo_client.py", line 15, in get_client
+    rpc.set_auth(login, password)
+  File "/Users/bahtera/Work/HELP_DESK/Jira/jira-webhook/services/base_rpc.py", line 26, in set_auth
+    self.uid = self.rpc_common.authenticate(self.db, login, password, {})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/xmlrpc/client.py", line 1178, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/xmlrpc/client.py", line 1291, in send_request
+    self.send_content(connection, request_body)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/xmlrpc/client.py", line 1321, in send_content
+    connection.endheaders(request_body)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1293, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1052, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 990, in send
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 956, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 827, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2025-04-25 10:42:01,691 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:42:01,692 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "string",
+  "id": 0,
+  "key": "string",
+  "changelog": {},
+  "fields": {
+    "status": {
+      "name": "string",
+      "statusCategory": {
+        "name": "string"
+      }
+    },
+    "reporter": {
+      "displayName": "string",
+      "emailAddress": "string",
+      "accountId": "string",
+      "active": true
+    },
+    "issuetype": {
+      "namedValue": "string",
+      "subtask": true
+    },
+    "project": {},
+    "summary": "string",
+    "customfield_10144": {},
+    "customfield_10030": 0,
+    "customfield_10035": "string",
+    "customfield_10145": 0,
+    "customfield_10146": "string",
+    "customfield_10147": 0,
+    "customfield_10148": "string",
+    "customfield_10042": 0,
+    "customfield_10043": "string",
+    "customfield_10044": "2025-04-25T02:51:05.980Z"
+  }
+}
+2025-04-25 10:42:01,692 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": 0,
+  "actual_expense_words": "string",
+  "balance": 0,
+  "balance_words": "string",
+  "done_at": "2025-04-25T02:51:05.980000+00:00",
+  "down_payment": 0,
+  "down_payment_words": "string",
+  "id": 0,
+  "issue_type": "string",
+  "key": "string",
+  "project": null,
+  "project_id": null,
+  "reporter": {
+    "account_id": "string",
+    "active": true,
+    "display_name": "string",
+    "email": "string"
+  },
+  "self": "string",
+  "status": {
+    "name": "string",
+    "status_category": {
+      "name": "string"
+    }
+  },
+  "summary": "string",
+  "total_payment": 0,
+  "total_payment_words": "string"
+}
+2025-04-25 10:42:01,692 - api.expenses - ERROR - Error saat memproses data expense: 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/Users/bahtera/Work/HELP_DESK/Jira/jira-webhook/api/expenses.py", line 66, in create_expense
+    company_split = transformed.get('project_id').split('_')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+2025-04-25 10:45:19,219 - core.auth - WARNING - Invalid token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkppcmEgQVBJIFRva2VuIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+2025-04-25 10:46:02,062 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:46:02,062 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "string",
+  "id": 0,
+  "key": "string",
+  "changelog": {},
+  "fields": {
+    "status": {
+      "name": "string",
+      "statusCategory": {
+        "name": "string"
+      }
+    },
+    "reporter": {
+      "displayName": "string",
+      "emailAddress": "string",
+      "accountId": "string",
+      "active": true
+    },
+    "issuetype": {
+      "namedValue": "string",
+      "subtask": true
+    },
+    "project": {},
+    "summary": "string",
+    "customfield_10144": {},
+    "customfield_10030": 0,
+    "customfield_10035": "string",
+    "customfield_10145": 0,
+    "customfield_10146": "string",
+    "customfield_10147": 0,
+    "customfield_10148": "string",
+    "customfield_10042": 0,
+    "customfield_10043": "string",
+    "customfield_10044": "2025-04-25T02:51:05.980Z"
+  }
+}
+2025-04-25 10:46:02,063 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": 0,
+  "actual_expense_words": "string",
+  "balance": 0,
+  "balance_words": "string",
+  "done_at": "2025-04-25T02:51:05.980000+00:00",
+  "down_payment": 0,
+  "down_payment_words": "string",
+  "id": 0,
+  "issue_type": "string",
+  "key": "string",
+  "project": null,
+  "project_id": null,
+  "reporter": {
+    "account_id": "string",
+    "active": true,
+    "display_name": "string",
+    "email": "string"
+  },
+  "self": "string",
+  "status": {
+    "name": "string",
+    "status_category": {
+      "name": "string"
+    }
+  },
+  "summary": "string",
+  "total_payment": 0,
+  "total_payment_words": "string"
+}
+2025-04-25 10:46:02,063 - api.expenses - ERROR - Error saat memproses data expense: 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/Users/bahtera/Work/HELP_DESK/Jira/jira-webhook/api/expenses.py", line 69, in create_expense
+    company_split = transformed.get('project_id').split('_')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+2025-04-25 10:46:31,372 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:46:31,372 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "string",
+  "id": 0,
+  "key": "string",
+  "changelog": {},
+  "fields": {
+    "status": {
+      "name": "string",
+      "statusCategory": {
+        "name": "string"
+      }
+    },
+    "reporter": {
+      "displayName": "string",
+      "emailAddress": "string",
+      "accountId": "string",
+      "active": true
+    },
+    "issuetype": {
+      "namedValue": "string",
+      "subtask": true
+    },
+    "project": {},
+    "summary": "string",
+    "customfield_10144": {},
+    "customfield_10030": 0,
+    "customfield_10035": "string",
+    "customfield_10145": 0,
+    "customfield_10146": "string",
+    "customfield_10147": 0,
+    "customfield_10148": "string",
+    "customfield_10042": 0,
+    "customfield_10043": "string",
+    "customfield_10044": "2025-04-25T02:51:05.980Z"
+  }
+}
+2025-04-25 10:46:31,372 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": 0,
+  "actual_expense_words": "string",
+  "balance": 0,
+  "balance_words": "string",
+  "done_at": "2025-04-25T02:51:05.980000+00:00",
+  "down_payment": 0,
+  "down_payment_words": "string",
+  "id": 0,
+  "issue_type": "string",
+  "key": "string",
+  "project": null,
+  "project_id": null,
+  "reporter": {
+    "account_id": "string",
+    "active": true,
+    "display_name": "string",
+    "email": "string"
+  },
+  "self": "string",
+  "status": {
+    "name": "string",
+    "status_category": {
+      "name": "string"
+    }
+  },
+  "summary": "string",
+  "total_payment": 0,
+  "total_payment_words": "string"
+}
+2025-04-25 10:46:31,373 - api.expenses - ERROR - Error saat memproses data expense: 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/Users/bahtera/Work/HELP_DESK/Jira/jira-webhook/api/expenses.py", line 69, in create_expense
+    company_split = transformed.get('project_id').split('_')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+2025-04-25 10:46:36,922 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:46:36,922 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "string",
+  "id": 0,
+  "key": "string",
+  "changelog": {},
+  "fields": {
+    "status": {
+      "name": "string",
+      "statusCategory": {
+        "name": "string"
+      }
+    },
+    "reporter": {
+      "displayName": "string",
+      "emailAddress": "string",
+      "accountId": "string",
+      "active": true
+    },
+    "issuetype": {
+      "namedValue": "string",
+      "subtask": true
+    },
+    "project": {},
+    "summary": "string",
+    "customfield_10144": {},
+    "customfield_10030": 0,
+    "customfield_10035": "string",
+    "customfield_10145": 0,
+    "customfield_10146": "string",
+    "customfield_10147": 0,
+    "customfield_10148": "string",
+    "customfield_10042": 0,
+    "customfield_10043": "string",
+    "customfield_10044": "2025-04-25T02:51:05.980Z"
+  }
+}
+2025-04-25 10:46:36,922 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": 0,
+  "actual_expense_words": "string",
+  "balance": 0,
+  "balance_words": "string",
+  "done_at": "2025-04-25T02:51:05.980000+00:00",
+  "down_payment": 0,
+  "down_payment_words": "string",
+  "id": 0,
+  "issue_type": "string",
+  "key": "string",
+  "project": null,
+  "project_id": null,
+  "reporter": {
+    "account_id": "string",
+    "active": true,
+    "display_name": "string",
+    "email": "string"
+  },
+  "self": "string",
+  "status": {
+    "name": "string",
+    "status_category": {
+      "name": "string"
+    }
+  },
+  "summary": "string",
+  "total_payment": 0,
+  "total_payment_words": "string"
+}
+2025-04-25 10:46:36,923 - api.expenses - ERROR - Error saat memproses data expense: 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/Users/bahtera/Work/HELP_DESK/Jira/jira-webhook/api/expenses.py", line 69, in create_expense
+    company_split = transformed.get('project_id').split('_')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+2025-04-25 10:47:22,910 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:47:22,910 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "string",
+  "id": 0,
+  "key": "string",
+  "changelog": {},
+  "fields": {
+    "status": {
+      "name": "string",
+      "statusCategory": {
+        "name": "string"
+      }
+    },
+    "reporter": {
+      "displayName": "string",
+      "emailAddress": "string",
+      "accountId": "string",
+      "active": true
+    },
+    "issuetype": {
+      "namedValue": "string",
+      "subtask": true
+    },
+    "project": {},
+    "summary": "string",
+    "customfield_10144": {},
+    "customfield_10030": 0,
+    "customfield_10035": "string",
+    "customfield_10145": 0,
+    "customfield_10146": "string",
+    "customfield_10147": 0,
+    "customfield_10148": "string",
+    "customfield_10042": 0,
+    "customfield_10043": "string",
+    "customfield_10044": "2025-04-25T02:51:05.980Z"
+  }
+}
+2025-04-25 10:47:22,910 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": 0,
+  "actual_expense_words": "string",
+  "balance": 0,
+  "balance_words": "string",
+  "done_at": "2025-04-25T02:51:05.980000+00:00",
+  "down_payment": 0,
+  "down_payment_words": "string",
+  "id": 0,
+  "issue_type": "string",
+  "key": "string",
+  "project": null,
+  "project_id": null,
+  "reporter": {
+    "account_id": "string",
+    "active": true,
+    "display_name": "string",
+    "email": "string"
+  },
+  "self": "string",
+  "status": {
+    "name": "string",
+    "status_category": {
+      "name": "string"
+    }
+  },
+  "summary": "string",
+  "total_payment": 0,
+  "total_payment_words": "string"
+}
+2025-04-25 10:47:22,911 - api.expenses - ERROR - Error saat memproses data expense: 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/Users/bahtera/Work/HELP_DESK/Jira/jira-webhook/api/expenses.py", line 69, in create_expense
+    company_split = transformed.get('project_id').split('_')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+2025-04-25 10:48:57,233 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:48:57,233 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "string",
+  "id": 0,
+  "key": "string",
+  "changelog": {},
+  "fields": {
+    "status": {
+      "name": "string",
+      "statusCategory": {
+        "name": "string"
+      }
+    },
+    "reporter": {
+      "displayName": "string",
+      "emailAddress": "string",
+      "accountId": "string",
+      "active": true
+    },
+    "issuetype": {
+      "namedValue": "string",
+      "subtask": true
+    },
+    "project": {},
+    "summary": "string",
+    "customfield_10144": {},
+    "customfield_10030": 0,
+    "customfield_10035": "string",
+    "customfield_10145": 0,
+    "customfield_10146": "string",
+    "customfield_10147": 0,
+    "customfield_10148": "string",
+    "customfield_10042": 0,
+    "customfield_10043": "string",
+    "customfield_10044": "2025-04-25T02:51:05.980Z"
+  }
+}
+2025-04-25 10:48:57,234 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": 0,
+  "actual_expense_words": "string",
+  "balance": 0,
+  "balance_words": "string",
+  "done_at": "2025-04-25T02:51:05.980000+00:00",
+  "down_payment": 0,
+  "down_payment_words": "string",
+  "id": 0,
+  "issue_type": "string",
+  "key": "string",
+  "project": null,
+  "project_id": null,
+  "reporter": {
+    "account_id": "string",
+    "active": true,
+    "display_name": "string",
+    "email": "string"
+  },
+  "self": "string",
+  "status": {
+    "name": "string",
+    "status_category": {
+      "name": "string"
+    }
+  },
+  "summary": "string",
+  "total_payment": 0,
+  "total_payment_words": "string"
+}
+2025-04-25 10:48:57,234 - api.expenses - INFO - Domain company: [('name', '=', 'PT Bangunindo Teknusa Jaya')]
+2025-04-25 10:48:57,234 - api.expenses - INFO - Domain user: [('name', '=', 'string')]
+2025-04-25 10:48:57,234 - api.expenses - INFO - Domain category: [('name', '=', 'Others')]
+2025-04-25 10:48:57,234 - services.odoo_client - INFO - Odoo config: bangunindo_web/Bangunindo_test:8069
+2025-04-25 10:48:57,242 - services.odoo_client - ERROR - Error find_data res.company: [Errno 8] nodename nor servname provided, or not known
+2025-04-25 10:48:57,243 - api.expenses - ERROR - Company not found: [('name', '=', 'PT Bangunindo Teknusa Jaya')]
+2025-04-25 10:49:27,807 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:49:27,808 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "string",
+  "id": 0,
+  "key": "string",
+  "changelog": {},
+  "fields": {
+    "status": {
+      "name": "string",
+      "statusCategory": {
+        "name": "string"
+      }
+    },
+    "reporter": {
+      "displayName": "string",
+      "emailAddress": "string",
+      "accountId": "string",
+      "active": true
+    },
+    "issuetype": {
+      "namedValue": "string",
+      "subtask": true
+    },
+    "project": {},
+    "summary": "string",
+    "customfield_10144": {},
+    "customfield_10030": 0,
+    "customfield_10035": "string",
+    "customfield_10145": 0,
+    "customfield_10146": "string",
+    "customfield_10147": 0,
+    "customfield_10148": "string",
+    "customfield_10042": 0,
+    "customfield_10043": "string",
+    "customfield_10044": "2025-04-25T02:51:05.980Z"
+  }
+}
+2025-04-25 10:49:27,808 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": 0,
+  "actual_expense_words": "string",
+  "balance": 0,
+  "balance_words": "string",
+  "done_at": "2025-04-25T02:51:05.980000+00:00",
+  "down_payment": 0,
+  "down_payment_words": "string",
+  "id": 0,
+  "issue_type": "string",
+  "key": "string",
+  "project": null,
+  "project_id": null,
+  "reporter": {
+    "account_id": "string",
+    "active": true,
+    "display_name": "string",
+    "email": "string"
+  },
+  "self": "string",
+  "status": {
+    "name": "string",
+    "status_category": {
+      "name": "string"
+    }
+  },
+  "summary": "string",
+  "total_payment": 0,
+  "total_payment_words": "string"
+}
+2025-04-25 10:49:27,808 - api.expenses - ERROR - Error saat memproses data expense: 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/Users/bahtera/Work/HELP_DESK/Jira/jira-webhook/api/expenses.py", line 70, in create_expense
+    company_split = project_id_val.split('_')
+                    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+2025-04-25 10:50:28,205 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:50:28,206 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "string",
+  "id": 0,
+  "key": "string",
+  "changelog": {},
+  "fields": {
+    "status": {
+      "name": "string",
+      "statusCategory": {
+        "name": "string"
+      }
+    },
+    "reporter": {
+      "displayName": "string",
+      "emailAddress": "string",
+      "accountId": "string",
+      "active": true
+    },
+    "issuetype": {
+      "namedValue": "string",
+      "subtask": true
+    },
+    "project": {},
+    "summary": "string",
+    "customfield_10144": {},
+    "customfield_10030": 0,
+    "customfield_10035": "string",
+    "customfield_10145": 0,
+    "customfield_10146": "string",
+    "customfield_10147": 0,
+    "customfield_10148": "string",
+    "customfield_10042": 0,
+    "customfield_10043": "string",
+    "customfield_10044": "2025-04-25T02:51:05.980Z"
+  }
+}
+2025-04-25 10:50:28,206 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": 0,
+  "actual_expense_words": "string",
+  "balance": 0,
+  "balance_words": "string",
+  "done_at": "2025-04-25T02:51:05.980000+00:00",
+  "down_payment": 0,
+  "down_payment_words": "string",
+  "id": 0,
+  "issue_type": "string",
+  "key": "string",
+  "project": null,
+  "project_id": null,
+  "reporter": {
+    "account_id": "string",
+    "active": true,
+    "display_name": "string",
+    "email": "string"
+  },
+  "self": "string",
+  "status": {
+    "name": "string",
+    "status_category": {
+      "name": "string"
+    }
+  },
+  "summary": "string",
+  "total_payment": 0,
+  "total_payment_words": "string"
+}
+2025-04-25 10:50:28,206 - api.expenses - ERROR - Error saat memproses data expense: 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/Users/bahtera/Work/HELP_DESK/Jira/jira-webhook/api/expenses.py", line 70, in create_expense
+    company_split = project_id_val.split('_')
+                    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+2025-04-25 10:50:51,595 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:50:51,595 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "string",
+  "id": 0,
+  "key": "string",
+  "changelog": {},
+  "fields": {
+    "status": {
+      "name": "string",
+      "statusCategory": {
+        "name": "string"
+      }
+    },
+    "reporter": {
+      "displayName": "string",
+      "emailAddress": "string",
+      "accountId": "string",
+      "active": true
+    },
+    "issuetype": {
+      "namedValue": "string",
+      "subtask": true
+    },
+    "project": {},
+    "summary": "string",
+    "customfield_10144": {},
+    "customfield_10030": 0,
+    "customfield_10035": "string",
+    "customfield_10145": 0,
+    "customfield_10146": "string",
+    "customfield_10147": 0,
+    "customfield_10148": "string",
+    "customfield_10042": 0,
+    "customfield_10043": "string",
+    "customfield_10044": "2025-04-25T02:51:05.980Z"
+  }
+}
+2025-04-25 10:50:51,595 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": 0,
+  "actual_expense_words": "string",
+  "balance": 0,
+  "balance_words": "string",
+  "done_at": "2025-04-25T02:51:05.980000+00:00",
+  "down_payment": 0,
+  "down_payment_words": "string",
+  "id": 0,
+  "issue_type": "string",
+  "key": "string",
+  "project": null,
+  "project_id": null,
+  "reporter": {
+    "account_id": "string",
+    "active": true,
+    "display_name": "string",
+    "email": "string"
+  },
+  "self": "string",
+  "status": {
+    "name": "string",
+    "status_category": {
+      "name": "string"
+    }
+  },
+  "summary": "string",
+  "total_payment": 0,
+  "total_payment_words": "string"
+}
+2025-04-25 10:50:51,595 - api.expenses - INFO - Company code: 
+2025-04-25 10:50:51,595 - api.expenses - INFO - Domain company: [('name', '=', 'PT Bangunindo Teknusa Jaya')]
+2025-04-25 10:50:51,595 - api.expenses - INFO - Domain user: [('name', '=', 'string')]
+2025-04-25 10:50:51,595 - api.expenses - INFO - Domain category: [('name', '=', 'Others')]
+2025-04-25 10:50:51,595 - services.odoo_client - INFO - Odoo config: bangunindo_web/Bangunindo_test:8069
+2025-04-25 10:50:51,601 - services.odoo_client - ERROR - Error find_data res.company: [Errno 8] nodename nor servname provided, or not known
+2025-04-25 10:50:51,601 - api.expenses - ERROR - Company not found: [('name', '=', 'PT Bangunindo Teknusa Jaya')]
+2025-04-25 10:51:58,807 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:51:58,808 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "https://bangunindo.atlassian.net/rest/api/2/issue/63880",
+  "id": 63880,
+  "key": "ROP-5269",
+  "changelog": {
+    "startAt": 0,
+    "maxResults": 0,
+    "total": 0,
+    "histories": null
+  },
+  "fields": {
+    "statuscategorychangedate": "2025-04-11T16:08:34.428+0700",
+    "customfield_10070": null,
+    "customfield_10071": null,
+    "customfield_10073": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/customFieldOption/10059",
+      "value": "BCA",
+      "id": "10059"
+    },
+    "customfield_10076": 0.0,
+    "fixVersions": [],
+    "statusCategory": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    },
+    "resolution": null,
+    "lastViewed": null,
+    "customfield_10061": null,
+    "customfield_10062": null,
+    "customfield_10063": null,
+    "customfield_10064": null,
+    "customfield_10066": null,
+    "priority": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/priority/4",
+      "id": 4,
+      "name": "Low",
+      "iconUrl": "https://bangunindo.atlassian.net/images/icons/priorities/low.svg",
+      "namedValue": "Low"
+    },
+    "customfield_10343": null,
+    "customfield_10344": null,
+    "labels": [],
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5dfca9c922edca0cb8050843",
+      "name": null,
+      "key": null,
+      "accountId": "5dfca9c922edca0cb8050843",
+      "emailAddress": null,
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png"
+      },
+      "displayName": "Hari Dzulhadi Nasution",
+      "active": true,
+      "timeZone": "Asia/Jakarta",
+      "groups": null,
+      "locale": null,
+      "accountType": "atlassian"
+    },
+    "status": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/status/10010",
+      "description": "",
+      "iconUrl": "https://bangunindo.atlassian.net/images/icons/status_generic.gif",
+      "name": "Done",
+      "untranslatedName": null,
+      "id": 10010,
+      "statusCategory": {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      },
+      "untranslatedNameValue": null
+    },
+    "components": [],
+    "customfield_10050": null,
+    "customfield_10051": null,
+    "customfield_10176": null,
+    "customfield_10211": null,
+    "customfield_10049": null,
+    "aggregatetimeestimate": null,
+    "creator": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+      "name": null,
+      "key": null,
+      "accountId": "610750868ad5b60070d2ddc9",
+      "emailAddress": null,
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+      },
+      "displayName": "Ozi Priawadi",
+      "active": true,
+      "timeZone": "Asia/Jakarta",
+      "groups": null,
+      "locale": null,
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "customfield_10040": 0.0,
+    "customfield_10041": 240000.0,
+    "customfield_10162": null,
+    "customfield_10163": null,
+    "reporter": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+      "name": null,
+      "key": null,
+      "accountId": "610750868ad5b60070d2ddc9",
+      "emailAddress": null,
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+      },
+      "displayName": "Ozi Priawadi",
+      "active": true,
+      "timeZone": "Asia/Jakarta",
+      "groups": null,
+      "locale": null,
+      "accountType": "atlassian"
+    },
+    "customfield_10164": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10165": null,
+    "customfield_10044": "2025-04-11T16:08:00.000+0700",
+    "customfield_10045": null,
+    "customfield_10166": [],
+    "customfield_10046": null,
+    "customfield_10047": [],
+    "customfield_10048": null,
+    "customfield_10038": 509000.0,
+    "customfield_10039": 0.0,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/issue/ROP-5215/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "maxResults": 20,
+      "total": 0,
+      "startAt": 0,
+      "worklogs": [],
+      "last": false
+    },
+    "issuetype": {
+      "namedValue": "Reimbursement",
+      "self": "https://bangunindo.atlassian.net/rest/api/2/issuetype/10024",
+      "id": 10024,
+      "description": "",
+      "iconUrl": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+      "name": "Reimbursement",
+      "untranslatedName": null,
+      "subtask": false,
+      "fields": {},
+      "statuses": [],
+      "hierarchyLevel": 0
+    },
+    "timespent": null,
+    "customfield_10030": 1555050.0,
+    "project": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/project/10005",
+      "id": 10005,
+      "key": "ROP",
+      "name": "Request of Payment",
+      "description": null,
+      "avatarUrls": {
+        "48x48": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424",
+        "24x24": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424?size=small",
+        "16x16": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424?size=xsmall",
+        "32x32": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424?size=medium"
+      },
+      "issuetypes": null,
+      "projectCategory": {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/projectCategory/10002",
+        "id": 10002,
+        "name": "Finance",
+        "description": ""
+      },
+      "email": null,
+      "lead": null,
+      "components": null,
+      "versions": null,
+      "projectTypeKey": "business",
+      "simplified": false
+    },
+    "customfield_10031": null,
+    "aggregatetimespent": null,
+    "customfield_10035": "Satu Juta Lima Ratus Lima Puluh Lima Ribu Lima Puluh Rupiah",
+    "customfield_10157": null,
+    "customfield_10036": 806050.0,
+    "customfield_10158": null,
+    "customfield_10037": 0.0,
+    "customfield_10148": null,
+    "customfield_10027": null,
+    "customfield_10028": null,
+    "customfield_10029": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "watches": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/issue/ROP-5215/watchers",
+      "watchCount": 2,
+      "isWatching": false
+    },
+    "created": 1743402112031,
+    "customfield_10020": null,
+    "customfield_10021": null,
+    "customfield_10022": "2025-04-09T12:34:38.029+0700",
+    "customfield_10144": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/customFieldOption/10572",
+      "value": "ITMS_NMS-AIIP-Q1_BAKTI_2025_PRO",
+      "id": "10572"
+    },
+    "customfield_10023": null,
+    "customfield_10145": null,
+    "customfield_10146": null,
+    "customfield_10147": null,
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "EPIC_LINK_SHOULD_BE_USED",
+        "message": "To set an epic as the parent, use the epic link instead"
+      }
+    },
+    "customfield_10019": "0|r048tk:",
+    "updated": 1744362518567,
+    "timeoriginalestimate": null,
+    "description": "Reimbursement Ozi Priawadi 1003 - 1803",
+    "customfield_10010": null,
+    "customfield_10014": null,
+    "timetracking": {
+      "originalEstimate": null,
+      "remainingEstimate": null,
+      "timeSpent": null,
+      "originalEstimateSeconds": 0,
+      "remainingEstimateSeconds": 0,
+      "timeSpentSeconds": 0
+    },
+    "customfield_10015": null,
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "security": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/securitylevel/10003",
+      "id": 10003,
+      "name": "Viewable by Reporters & Assignee",
+      "description": "",
+      "namedValue": "Viewable by Reporters & Assignee"
+    },
+    "customfield_10007": null,
+    "customfield_10008": null,
+    "customfield_10129": null,
+    "customfield_10009": null,
+    "attachment": [
+      {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/attachment/56766",
+        "id": 56766,
+        "filename": "Reimburse Maret.pdf",
+        "author": {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+          "name": null,
+          "key": null,
+          "accountId": "610750868ad5b60070d2ddc9",
+          "emailAddress": null,
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+          },
+          "displayName": "Ozi Priawadi",
+          "active": true,
+          "timeZone": "Asia/Jakarta",
+          "groups": null,
+          "locale": null,
+          "accountType": "atlassian"
+        },
+        "created": 1743402032517,
+        "size": 4255822,
+        "mimeType": "application/pdf",
+        "content": "https://bangunindo.atlassian.net/rest/api/2/attachment/content/56766"
+      },
+      {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/attachment/56765",
+        "id": 56765,
+        "filename": "Reimburse Maret NMT AI IPHUB.png",
+        "author": {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+          "name": null,
+          "key": null,
+          "accountId": "610750868ad5b60070d2ddc9",
+          "emailAddress": null,
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+          },
+          "displayName": "Ozi Priawadi",
+          "active": true,
+          "timeZone": "Asia/Jakarta",
+          "groups": null,
+          "locale": null,
+          "accountType": "atlassian"
+        },
+        "created": 1743402013682,
+        "size": 483668,
+        "mimeType": "image/png",
+        "content": "https://bangunindo.atlassian.net/rest/api/2/attachment/content/56765"
+      },
+      {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/attachment/57188",
+        "id": 57188,
+        "filename": "ROP 5215.png",
+        "author": {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5dfca9c99a14250cb69f31cc",
+          "name": null,
+          "key": null,
+          "accountId": "5dfca9c99a14250cb69f31cc",
+          "emailAddress": null,
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png"
+          },
+          "displayName": "Rizki Jofiansyah Ismar",
+          "active": true,
+          "timeZone": "Asia/Jakarta",
+          "groups": null,
+          "locale": null,
+          "accountType": "atlassian"
+        },
+        "created": 1744362509464,
+        "size": 123630,
+        "mimeType": "image/png",
+        "content": "https://bangunindo.atlassian.net/rest/api/2/attachment/content/57188"
+      }
+    ],
+    "summary": "Reimbursement Ozi Priawadi 1003 - 1803",
+    "customfield_10000": "{}",
+    "customfield_10001": null,
+    "customfield_10123": "2025-03-10",
+    "customfield_10002": [],
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "customfield_10117": null,
+    "environment": null,
+    "customfield_10118": null,
+    "customfield_10119": null,
+    "comment": {
+      "maxResults": 2,
+      "total": 2,
+      "startAt": 0,
+      "comments": [
+        {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/issue/63880/comment/47285",
+          "id": 47285,
+          "author": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5e29849ec9ecb50e76b98e89",
+            "name": null,
+            "key": null,
+            "accountId": "5e29849ec9ecb50e76b98e89",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png"
+            },
+            "displayName": "Aditya Sasmita",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:610750868ad5b60070d2ddc9] ini AI LC apa AIIP, Ji? udah ada PID barunya NMS AIIP Q1",
+          "renderedBody": null,
+          "updateAuthor": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5e29849ec9ecb50e76b98e89",
+            "name": null,
+            "key": null,
+            "accountId": "5e29849ec9ecb50e76b98e89",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png"
+            },
+            "displayName": "Aditya Sasmita",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "created": 1744176878029,
+          "updated": 1744176902293,
+          "visibility": null
+        },
+        {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/issue/63880/comment/47287",
+          "id": 47287,
+          "author": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+            "name": null,
+            "key": null,
+            "accountId": "610750868ad5b60070d2ddc9",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+            },
+            "displayName": "Ozi Priawadi",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:5e29849ec9ecb50e76b98e89] AI IPHUB Adit. Waktu bikin masih belum ada, mintol diganti klo gitu yak \ud83d\ude4f",
+          "renderedBody": null,
+          "updateAuthor": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+            "name": null,
+            "key": null,
+            "accountId": "610750868ad5b60070d2ddc9",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+            },
+            "displayName": "Ozi Priawadi",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "created": 1744177308973,
+          "updated": 1744177308973,
+          "visibility": null
+        }
+      ],
+      "last": false
+    }
+  },
+  "renderedFields": null
+}
+2025-04-25 10:51:58,809 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": null,
+  "actual_expense_words": null,
+  "balance": null,
+  "balance_words": null,
+  "done_at": "2025-04-11T16:08:00+07:00",
+  "down_payment": null,
+  "down_payment_words": null,
+  "id": 63880,
+  "issue_type": "Reimbursement",
+  "key": "ROP-5269",
+  "project": "Request of Payment",
+  "project_id": "ITMS_NMS-AIIP-Q1_BAKTI_2025_PRO",
+  "reporter": {
+    "account_id": "610750868ad5b60070d2ddc9",
+    "active": true,
+    "display_name": "Ozi Priawadi",
+    "email": null
+  },
+  "self": "https://bangunindo.atlassian.net/rest/api/2/issue/63880",
+  "status": {
+    "name": "Done",
+    "status_category": {
+      "name": "Done"
+    }
+  },
+  "summary": "Reimbursement Ozi Priawadi 1003 - 1803",
+  "total_payment": 1555050,
+  "total_payment_words": "Satu Juta Lima Ratus Lima Puluh Lima Ribu Lima Puluh Rupiah"
+}
+2025-04-25 10:51:58,809 - api.expenses - INFO - Company code: ITMS
+2025-04-25 10:51:58,809 - api.expenses - INFO - Domain company: [('name', '=', 'IT Manage Service')]
+2025-04-25 10:51:58,809 - api.expenses - INFO - Domain user: [('name', '=', 'Ozi Priawadi')]
+2025-04-25 10:51:58,809 - api.expenses - INFO - Domain category: [('name', '=', 'Others')]
+2025-04-25 10:51:58,809 - services.odoo_client - INFO - Odoo config: bangunindo_web/Bangunindo_test:8069
+2025-04-25 10:51:58,812 - services.odoo_client - ERROR - Error find_data res.company: [Errno 8] nodename nor servname provided, or not known
+2025-04-25 10:51:58,812 - api.expenses - ERROR - Company not found: [('name', '=', 'IT Manage Service')]
+2025-04-25 10:53:24,880 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:53:24,881 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "https://bangunindo.atlassian.net/rest/api/2/issue/63880",
+  "id": 63880,
+  "key": "ROP-5269",
+  "changelog": {
+    "startAt": 0,
+    "maxResults": 0,
+    "total": 0,
+    "histories": null
+  },
+  "fields": {
+    "statuscategorychangedate": "2025-04-11T16:08:34.428+0700",
+    "customfield_10070": null,
+    "customfield_10071": null,
+    "customfield_10073": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/customFieldOption/10059",
+      "value": "BCA",
+      "id": "10059"
+    },
+    "customfield_10076": 0.0,
+    "fixVersions": [],
+    "statusCategory": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    },
+    "resolution": null,
+    "lastViewed": null,
+    "customfield_10061": null,
+    "customfield_10062": null,
+    "customfield_10063": null,
+    "customfield_10064": null,
+    "customfield_10066": null,
+    "priority": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/priority/4",
+      "id": 4,
+      "name": "Low",
+      "iconUrl": "https://bangunindo.atlassian.net/images/icons/priorities/low.svg",
+      "namedValue": "Low"
+    },
+    "customfield_10343": null,
+    "customfield_10344": null,
+    "labels": [],
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5dfca9c922edca0cb8050843",
+      "name": null,
+      "key": null,
+      "accountId": "5dfca9c922edca0cb8050843",
+      "emailAddress": null,
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/ddbaadd4e8a9592f80a4936200b3cddc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHN-1.png"
+      },
+      "displayName": "Hari Dzulhadi Nasution",
+      "active": true,
+      "timeZone": "Asia/Jakarta",
+      "groups": null,
+      "locale": null,
+      "accountType": "atlassian"
+    },
+    "status": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/status/10010",
+      "description": "",
+      "iconUrl": "https://bangunindo.atlassian.net/images/icons/status_generic.gif",
+      "name": "Done",
+      "untranslatedName": null,
+      "id": 10010,
+      "statusCategory": {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      },
+      "untranslatedNameValue": null
+    },
+    "components": [],
+    "customfield_10050": null,
+    "customfield_10051": null,
+    "customfield_10176": null,
+    "customfield_10211": null,
+    "customfield_10049": null,
+    "aggregatetimeestimate": null,
+    "creator": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+      "name": null,
+      "key": null,
+      "accountId": "610750868ad5b60070d2ddc9",
+      "emailAddress": null,
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+      },
+      "displayName": "Ozi Priawadi",
+      "active": true,
+      "timeZone": "Asia/Jakarta",
+      "groups": null,
+      "locale": null,
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "customfield_10040": 0.0,
+    "customfield_10041": 240000.0,
+    "customfield_10162": null,
+    "customfield_10163": null,
+    "reporter": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+      "name": null,
+      "key": null,
+      "accountId": "610750868ad5b60070d2ddc9",
+      "emailAddress": null,
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+        "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+      },
+      "displayName": "Ozi Priawadi",
+      "active": true,
+      "timeZone": "Asia/Jakarta",
+      "groups": null,
+      "locale": null,
+      "accountType": "atlassian"
+    },
+    "customfield_10164": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10165": null,
+    "customfield_10044": "2025-04-11T16:08:00.000+0700",
+    "customfield_10045": null,
+    "customfield_10166": [],
+    "customfield_10046": null,
+    "customfield_10047": [],
+    "customfield_10048": null,
+    "customfield_10038": 509000.0,
+    "customfield_10039": 0.0,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/issue/ROP-5215/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "maxResults": 20,
+      "total": 0,
+      "startAt": 0,
+      "worklogs": [],
+      "last": false
+    },
+    "issuetype": {
+      "namedValue": "Reimbursement",
+      "self": "https://bangunindo.atlassian.net/rest/api/2/issuetype/10024",
+      "id": 10024,
+      "description": "",
+      "iconUrl": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+      "name": "Reimbursement",
+      "untranslatedName": null,
+      "subtask": false,
+      "fields": {},
+      "statuses": [],
+      "hierarchyLevel": 0
+    },
+    "timespent": null,
+    "customfield_10030": 1555050.0,
+    "project": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/project/10005",
+      "id": 10005,
+      "key": "ROP",
+      "name": "Request of Payment",
+      "description": null,
+      "avatarUrls": {
+        "48x48": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424",
+        "24x24": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424?size=small",
+        "16x16": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424?size=xsmall",
+        "32x32": "https://bangunindo.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424?size=medium"
+      },
+      "issuetypes": null,
+      "projectCategory": {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/projectCategory/10002",
+        "id": 10002,
+        "name": "Finance",
+        "description": ""
+      },
+      "email": null,
+      "lead": null,
+      "components": null,
+      "versions": null,
+      "projectTypeKey": "business",
+      "simplified": false
+    },
+    "customfield_10031": null,
+    "aggregatetimespent": null,
+    "customfield_10035": "Satu Juta Lima Ratus Lima Puluh Lima Ribu Lima Puluh Rupiah",
+    "customfield_10157": null,
+    "customfield_10036": 806050.0,
+    "customfield_10158": null,
+    "customfield_10037": 0.0,
+    "customfield_10148": null,
+    "customfield_10027": null,
+    "customfield_10028": null,
+    "customfield_10029": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "watches": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/issue/ROP-5215/watchers",
+      "watchCount": 2,
+      "isWatching": false
+    },
+    "created": 1743402112031,
+    "customfield_10020": null,
+    "customfield_10021": null,
+    "customfield_10022": "2025-04-09T12:34:38.029+0700",
+    "customfield_10144": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/customFieldOption/10572",
+      "value": "ITMS_NMS-AIIP-Q1_BAKTI_2025_PRO",
+      "id": "10572"
+    },
+    "customfield_10023": null,
+    "customfield_10145": null,
+    "customfield_10146": null,
+    "customfield_10147": null,
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "EPIC_LINK_SHOULD_BE_USED",
+        "message": "To set an epic as the parent, use the epic link instead"
+      }
+    },
+    "customfield_10019": "0|r048tk:",
+    "updated": 1744362518567,
+    "timeoriginalestimate": null,
+    "description": "Reimbursement Ozi Priawadi 1003 - 1803",
+    "customfield_10010": null,
+    "customfield_10014": null,
+    "timetracking": {
+      "originalEstimate": null,
+      "remainingEstimate": null,
+      "timeSpent": null,
+      "originalEstimateSeconds": 0,
+      "remainingEstimateSeconds": 0,
+      "timeSpentSeconds": 0
+    },
+    "customfield_10015": null,
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "security": {
+      "self": "https://bangunindo.atlassian.net/rest/api/2/securitylevel/10003",
+      "id": 10003,
+      "name": "Viewable by Reporters & Assignee",
+      "description": "",
+      "namedValue": "Viewable by Reporters & Assignee"
+    },
+    "customfield_10007": null,
+    "customfield_10008": null,
+    "customfield_10129": null,
+    "customfield_10009": null,
+    "attachment": [
+      {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/attachment/56766",
+        "id": 56766,
+        "filename": "Reimburse Maret.pdf",
+        "author": {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+          "name": null,
+          "key": null,
+          "accountId": "610750868ad5b60070d2ddc9",
+          "emailAddress": null,
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+          },
+          "displayName": "Ozi Priawadi",
+          "active": true,
+          "timeZone": "Asia/Jakarta",
+          "groups": null,
+          "locale": null,
+          "accountType": "atlassian"
+        },
+        "created": 1743402032517,
+        "size": 4255822,
+        "mimeType": "application/pdf",
+        "content": "https://bangunindo.atlassian.net/rest/api/2/attachment/content/56766"
+      },
+      {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/attachment/56765",
+        "id": 56765,
+        "filename": "Reimburse Maret NMT AI IPHUB.png",
+        "author": {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+          "name": null,
+          "key": null,
+          "accountId": "610750868ad5b60070d2ddc9",
+          "emailAddress": null,
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+            "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+          },
+          "displayName": "Ozi Priawadi",
+          "active": true,
+          "timeZone": "Asia/Jakarta",
+          "groups": null,
+          "locale": null,
+          "accountType": "atlassian"
+        },
+        "created": 1743402013682,
+        "size": 483668,
+        "mimeType": "image/png",
+        "content": "https://bangunindo.atlassian.net/rest/api/2/attachment/content/56765"
+      },
+      {
+        "self": "https://bangunindo.atlassian.net/rest/api/2/attachment/57188",
+        "id": 57188,
+        "filename": "ROP 5215.png",
+        "author": {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5dfca9c99a14250cb69f31cc",
+          "name": null,
+          "key": null,
+          "accountId": "5dfca9c99a14250cb69f31cc",
+          "emailAddress": null,
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/180f2b74dab598403294aa15c745ddfa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRI-0.png"
+          },
+          "displayName": "Rizki Jofiansyah Ismar",
+          "active": true,
+          "timeZone": "Asia/Jakarta",
+          "groups": null,
+          "locale": null,
+          "accountType": "atlassian"
+        },
+        "created": 1744362509464,
+        "size": 123630,
+        "mimeType": "image/png",
+        "content": "https://bangunindo.atlassian.net/rest/api/2/attachment/content/57188"
+      }
+    ],
+    "summary": "Reimbursement Ozi Priawadi 1003 - 1803",
+    "customfield_10000": "{}",
+    "customfield_10001": null,
+    "customfield_10123": "2025-03-10",
+    "customfield_10002": [],
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "customfield_10117": null,
+    "environment": null,
+    "customfield_10118": null,
+    "customfield_10119": null,
+    "comment": {
+      "maxResults": 2,
+      "total": 2,
+      "startAt": 0,
+      "comments": [
+        {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/issue/63880/comment/47285",
+          "id": 47285,
+          "author": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5e29849ec9ecb50e76b98e89",
+            "name": null,
+            "key": null,
+            "accountId": "5e29849ec9ecb50e76b98e89",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png"
+            },
+            "displayName": "Aditya Sasmita",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:610750868ad5b60070d2ddc9] ini AI LC apa AIIP, Ji? udah ada PID barunya NMS AIIP Q1",
+          "renderedBody": null,
+          "updateAuthor": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=5e29849ec9ecb50e76b98e89",
+            "name": null,
+            "key": null,
+            "accountId": "5e29849ec9ecb50e76b98e89",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AS-5.png"
+            },
+            "displayName": "Aditya Sasmita",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "created": 1744176878029,
+          "updated": 1744176902293,
+          "visibility": null
+        },
+        {
+          "self": "https://bangunindo.atlassian.net/rest/api/2/issue/63880/comment/47287",
+          "id": 47287,
+          "author": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+            "name": null,
+            "key": null,
+            "accountId": "610750868ad5b60070d2ddc9",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+            },
+            "displayName": "Ozi Priawadi",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:5e29849ec9ecb50e76b98e89] AI IPHUB Adit. Waktu bikin masih belum ada, mintol diganti klo gitu yak \ud83d\ude4f",
+          "renderedBody": null,
+          "updateAuthor": {
+            "self": "https://bangunindo.atlassian.net/rest/api/2/user?accountId=610750868ad5b60070d2ddc9",
+            "name": null,
+            "key": null,
+            "accountId": "610750868ad5b60070d2ddc9",
+            "emailAddress": null,
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "24x24": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "16x16": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png",
+              "32x32": "https://secure.gravatar.com/avatar/307527d3f9f372164bafd7134ce04a8d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOP-4.png"
+            },
+            "displayName": "Ozi Priawadi",
+            "active": true,
+            "timeZone": "Asia/Jakarta",
+            "groups": null,
+            "locale": null,
+            "accountType": "atlassian"
+          },
+          "created": 1744177308973,
+          "updated": 1744177308973,
+          "visibility": null
+        }
+      ],
+      "last": false
+    }
+  },
+  "renderedFields": null
+}
+2025-04-25 10:53:24,882 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": null,
+  "actual_expense_words": null,
+  "balance": null,
+  "balance_words": null,
+  "done_at": "2025-04-11T16:08:00+07:00",
+  "down_payment": null,
+  "down_payment_words": null,
+  "id": 63880,
+  "issue_type": "Reimbursement",
+  "key": "ROP-5269",
+  "project": "Request of Payment",
+  "project_id": "ITMS_NMS-AIIP-Q1_BAKTI_2025_PRO",
+  "reporter": {
+    "account_id": "610750868ad5b60070d2ddc9",
+    "active": true,
+    "display_name": "Ozi Priawadi",
+    "email": null
+  },
+  "self": "https://bangunindo.atlassian.net/rest/api/2/issue/63880",
+  "status": {
+    "name": "Done",
+    "status_category": {
+      "name": "Done"
+    }
+  },
+  "summary": "Reimbursement Ozi Priawadi 1003 - 1803",
+  "total_payment": 1555050,
+  "total_payment_words": "Satu Juta Lima Ratus Lima Puluh Lima Ribu Lima Puluh Rupiah"
+}
+2025-04-25 10:53:24,882 - api.expenses - INFO - Company code: ITMS
+2025-04-25 10:53:24,882 - api.expenses - INFO - Domain company: [('name', '=', 'IT Manage Service')]
+2025-04-25 10:53:24,882 - api.expenses - INFO - Domain user: [('name', '=', 'Ozi Priawadi')]
+2025-04-25 10:53:24,882 - api.expenses - INFO - Domain category: [('name', '=', 'Others')]
+2025-04-25 10:53:24,883 - services.odoo_client - INFO - Odoo config: bangunindo_web/Bangunindo_test:8069
+2025-04-25 10:53:24,895 - services.odoo_client - ERROR - Error find_data res.company: [Errno 8] nodename nor servname provided, or not known
+2025-04-25 10:53:24,896 - api.expenses - ERROR - Company not found: [('name', '=', 'IT Manage Service')]
+2025-04-25 10:53:24,896 - request.middleware - ERROR - Request: POST /jira/expenses → 404
