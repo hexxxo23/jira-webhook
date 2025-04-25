@@ -2369,3 +2369,80 @@ AttributeError: 'NoneType' object has no attribute 'split'
 2025-04-25 10:53:24,895 - services.odoo_client - ERROR - Error find_data res.company: [Errno 8] nodename nor servname provided, or not known
 2025-04-25 10:53:24,896 - api.expenses - ERROR - Company not found: [('name', '=', 'IT Manage Service')]
 2025-04-25 10:53:24,896 - request.middleware - ERROR - Request: POST /jira/expenses → 404
+2025-04-25 10:54:58,437 - api.expenses - INFO - Endpoint /jira/expenses diakses
+2025-04-25 10:54:58,437 - api.expenses - INFO - Data Jira diterima: 
+{
+  "self": "string",
+  "id": 0,
+  "key": "string",
+  "changelog": {},
+  "fields": {
+    "status": {
+      "name": "string",
+      "statusCategory": {
+        "name": "string"
+      }
+    },
+    "reporter": {
+      "displayName": "string",
+      "emailAddress": "string",
+      "accountId": "string",
+      "active": true
+    },
+    "issuetype": {
+      "namedValue": "string",
+      "subtask": true
+    },
+    "project": {},
+    "summary": "string",
+    "customfield_10144": {},
+    "customfield_10030": 0,
+    "customfield_10035": "string",
+    "customfield_10145": 0,
+    "customfield_10146": "string",
+    "customfield_10147": 0,
+    "customfield_10148": "string",
+    "customfield_10042": 0,
+    "customfield_10043": "string",
+    "customfield_10044": "2025-04-25T02:51:05.980Z"
+  }
+}
+2025-04-25 10:54:58,438 - api.expenses - INFO - Data Jira yang telah ditransformasi: 
+{
+  "actual_expense": 0,
+  "actual_expense_words": "string",
+  "balance": 0,
+  "balance_words": "string",
+  "done_at": "2025-04-25T02:51:05.980000+00:00",
+  "down_payment": 0,
+  "down_payment_words": "string",
+  "id": 0,
+  "issue_type": "string",
+  "key": "string",
+  "project": null,
+  "project_id": null,
+  "reporter": {
+    "account_id": "string",
+    "active": true,
+    "display_name": "string",
+    "email": "string"
+  },
+  "self": "string",
+  "status": {
+    "name": "string",
+    "status_category": {
+      "name": "string"
+    }
+  },
+  "summary": "string",
+  "total_payment": 0,
+  "total_payment_words": "string"
+}
+2025-04-25 10:54:58,438 - api.expenses - INFO - Company code: 
+2025-04-25 10:54:58,438 - api.expenses - INFO - Domain company: [('name', '=', 'PT Bangunindo Teknusa Jaya')]
+2025-04-25 10:54:58,438 - api.expenses - INFO - Domain user: [('name', '=', 'string')]
+2025-04-25 10:54:58,438 - api.expenses - INFO - Domain category: [('name', '=', 'Others')]
+2025-04-25 10:54:58,438 - services.odoo_client - INFO - Odoo config: bangunindo_web/Bangunindo_test:8069
+2025-04-25 10:54:58,445 - services.odoo_client - ERROR - Error find_data res.company: [Errno 8] nodename nor servname provided, or not known
+2025-04-25 10:54:58,445 - api.expenses - ERROR - Company not found: [('name', '=', 'PT Bangunindo Teknusa Jaya')]
+2025-04-25 10:54:58,446 - request.middleware - ERROR - Request: POST /jira/expenses → 404

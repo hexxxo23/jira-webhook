@@ -1,9 +1,15 @@
+# core/auth.py
+import os
+from dotenv import load_dotenv
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from fastapi import Depends, HTTPException
 import logging
 
+# load .env
+load_dotenv()
+
 security = HTTPBearer()
-EXPECTED_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkppcmEgQVBJIFRva2VuIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+EXPECTED_TOKEN = os.getenv("EXPECTED_TOKEN")
 
 def verify_token(
     credentials: HTTPAuthorizationCredentials = Depends(security)
